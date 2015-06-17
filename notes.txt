@@ -3,8 +3,7 @@ kibana-reveal
 
 Welcome to my slideshow seed for Kibana. This is a sample app for Kibana 4.1 that adds a new tab
 called "Slides" to Kibana. In dev mode it will work entirely unassisted, however when using in a
-compiled Kibana instance you'll need to add it to kibana.yml. Simple drop the contents of this 
-repo into a directory called "reveal" in your kibana plugins dir
+compiled Kibana instance you'll need to add it to kibana.yml.
 
 Note this is specific to Kibana 4.1, Kibana 4.2 introduces a formal plugin system which won't work
 with this application. Think of this as a "technology preview". If you want to see the new plugin
@@ -20,3 +19,62 @@ presentation and used those. Its cheating. I know. I don't care.
 I made a few, non-essential modifications to offline.html. You don't need them for this to work, but
 they help the slides take up the full screen by constantly adjusting the "zoom" of the slides to
 use the full width of the browser. You can find them in the last `<script>` tag in offline.html
+
+
+
+
+
+My notes for this talk
+======================
+
+Dimension 1
+-----------
+1. user:jplnews
+2. Switch to usagov* (Still one dimension, can't see patterns)
+3. Add columns (@timestamp, destination, request)
+4. Only looking at one user
+
+Dimension 2 (Back to slides)
+-----------
+1. Time as 2 axis
+2. Top users or destinations
+
+Visualize
+---------
+1. Visualize users
+2. New vis
+3. Line chart -> usagov
+4. X-axis date_histogram
+5. Split lines by user
+6. Remove connecting lines
+7. Dot size unique destinations
+
+Drill down
+----------
+1. Click on top `jplnews` dot
+2. Discuss how filters work
+3. Drill into spike
+4. X-axis to destination (top 20)
+5. Dot size to referrer
+6. Show spy
+7. Click link
+
+App flow
+--------
+1. One dimension
+2. N dimensions
+3. N of N dimensions in N datasets
+
+Dashboard & filters
+-------------------
+1. Multiple indices
+2. Click jplnews in histogram
+3. Note users table
+4. Pin filter
+5. Edit map
+6. Select region
+7. Move to discover
+
+
+
+
