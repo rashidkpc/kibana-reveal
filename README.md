@@ -1,3 +1,5 @@
+# Deprecated: This only worked on Kibana 4.1
+
 kibana-reveal
 =============
 
