@@ -1,5 +1,5 @@
 # Deprecated: This only worked on Kibana 4.1
-If you want something a lot better, see the kibana-keynote repo which works with Kibana 5.0.0-alpha1. 
+If you want something a lot better, see the [kibana-keynote](https://github.com/rashidkpc/kibana-keynote) repo which works with Kibana 5.0.0-alpha1. 
 It allows you to simply export a keynote presentation as PNGs and run with it.
 
 kibana-reveal
